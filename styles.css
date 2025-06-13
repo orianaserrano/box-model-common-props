@@ -514,6 +514,8 @@ footer{
             - left: 0
 */
 #section4 p:last-of-type{
+    margin : 1rem 0;
+
 
 }
 
@@ -540,7 +542,7 @@ footer{
 
 /* For the second div, let's align the image to the right and add the dark gray as the background color */
 #bg-img-2{
-    background: var(--dk-gray) right no-repeat url("images/puppy-photo.jpg");
+    background: var(--dk-gray) center url("images/puppy-photo.jpg");
 }
 
 /* For the third div, let's include the a background color, allow the image to tile, but center the tiling in the container */
@@ -551,6 +553,7 @@ footer{
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
+    background: var() ;
     
 }
 
