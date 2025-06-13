@@ -581,6 +581,7 @@ footer{
         - add the wood background texture from the images folder
 */
 #pattern1{
+    background: var(--light-gray)110% url("images/wood.png");
     
 }
 
@@ -638,6 +639,7 @@ footer{
         - float the image to the right
 */
 #dog-house{
+    float: right;
     
 }
 
@@ -647,6 +649,8 @@ footer{
         - clear any floats
 */
 #section9{
+    clear: both;
+    
     
 }
 
